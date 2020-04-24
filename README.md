@@ -4,7 +4,7 @@
 
 <img src='https://github.com/Sluckson/Twitter_Part2/blob/master/20200414_134758.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-# Projet 2 - * Nom de l'application ici *
+# Projet 2 - * Twitter *
 
 ** Nom de votre application ** est une application Android qui permet à un utilisateur de visualiser sa chronologie Twitter. L'application utilise [Twitter REST API] (https://dev.twitter.com/rest/public).
 
@@ -36,7 +36,7 @@ Les fonctionnalités ** facultatives ** suivantes sont implémentées:
 
 Les ** fonctionnalités ** supplémentaires suivantes sont implémentées:
 
-- [] Énumérez tout ce que vous pouvez faire pour améliorer la fonctionnalité de l'application!
+- [X] Énumérez tout ce que vous pouvez faire pour améliorer la fonctionnalité de l'application!
 
 ## Procédure pas à pas vidéo
 
