@@ -4,6 +4,81 @@
 
 <img src='https://github.com/Sluckson/Twitter_Part2/blob/master/20200414_134758.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+# Projet 2 - * Nom de l'application ici *
+
+** Nom de votre application ** est une application Android qui permet à un utilisateur de visualiser sa chronologie Twitter. L'application utilise [Twitter REST API] (https://dev.twitter.com/rest/public).
+
+Temps passé: ** X ** heures passées au total
+
+## Histoires d'utilisateurs
+
+La fonctionnalité ** requise ** suivante est terminée:
+
+- [X] L'utilisateur peut ** se connecter à Twitter ** en utilisant la connexion OAuth
+- [X] L'utilisateur peut ** afficher les tweets à partir de sa chronologie personnelle **
+  - [X] L'utilisateur affiche le nom d'utilisateur, le nom et le corps de chaque tweet
+  - [-] L'utilisateur affiche [l'horodatage relatif] (https://gist.github.com/nesquena/f786232f5ef72f6e10a7) pour chaque tweet "8m", "7h"
+- [X] L'utilisateur peut actualiser la chronologie des tweets en tirant vers le bas pour actualiser
+
+Les fonctionnalités ** facultatives ** suivantes sont implémentées:
+
+- [X] L'utilisateur peut voir plus de tweets en défilant avec une pagination infinie
+- [-] L'utilisateur peut appuyer sur un tweet pour afficher une vue "détaillée" de ce tweet
+- [X] L'utilisateur peut ouvrir l'application Twitter hors ligne et voir les derniers tweets chargés
+- [] Sur la timeline Twitter, tirez parti de CoordinatorLayout pour appliquer un comportement de défilement qui masque / affiche la barre d'outils.
+- [-] Remplacez tous les éléments de dessin d'icônes et autres éléments d'image statique par [éléments de dessin vectoriels] (http://guides.codepath.org/android/Drawables#vector-drawables), le cas échéant.
+- [] L'utilisateur peut voir le support d'image intégré dans la vue détaillée du tweet
+- [] L'utilisateur voit un ** indicateur de progression indéterminé ** lorsqu'une tâche en arrière-plan ou en réseau se produit
+- [] L'utilisateur peut ** voir le support d'image intégré dans un tweet ** sur la liste ou la vue détaillée.
+- [X] L'utilisateur peut ** cliquer sur un lien dans le corps d'un tweet ** dans la vue détaillée du tweet. Le clic lancera le navigateur Web avec la page appropriée ouverte.
+- [X] L'utilisateur peut afficher la liste des abonnés / suiveurs à travers n'importe quel profil qu'ils consultent.
+- [] L'utilisateur utilise ** des couleurs et des styles "de marque Twitter" **
+
+Les ** fonctionnalités ** supplémentaires suivantes sont implémentées:
+
+- [] Énumérez tout ce que vous pouvez faire pour améliorer la fonctionnalité de l'application!
+
+## Procédure pas à pas vidéo
+
+Voici une procédure pas à pas d'histoires d'utilisateurs implémentées:
+
+<img src = 'http: //i.imgur.com/link/to/your/gif/file.gif' title = 'Vidéo pas à pas' width = '' alt = 'Vidéo pas à pas' />
+
+GIF créé avec [LiceCap] (http://www.cockos.com/licecap/).
+
+## Remarques
+
+Décrivez tous les défis rencontrés lors de la création de l'application.
+
+## Bibliothèques open source utilisées
+
+- [Android Async HTTP] (https://github.com/codepath/CPAsyncHttpClient) - Demandes HTTP asynchrones simples avec analyse JSON
+- [Glide] (https://github.com/bumptech/glide) - Bibliothèque de chargement et de mise en cache d'images pour Android
+
+## Licence
+
+    Copyright [aaaa] [nom du propriétaire du copyright]
+
+    Sous licence Apache License, Version 2.0 (la "Licence");
+    vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence.
+    Vous pouvez obtenir une copie de la licence à l'adresse
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Sauf si requis par la loi applicable ou accepté par écrit, le logiciel
+    distribué sous licence est distribué sur une base "en l'état",
+    SANS GARANTIE OU CONDITION DE QUELQUE NATURE QUE CE SOIT, expresse ou implicite.
+    Voir la licence pour la langue spécifique régissant les autorisations et
+    limitations de la licence.
+
+
+
+
+
+
+
+
+
 RestClientTemplate is a skeleton Android project that makes writing Android apps sourced from OAuth JSON REST APIs as easy as possible. This skeleton project
 combines the best libraries and structure to enable quick development of rich API clients. The following things are supported out of the box:
 
